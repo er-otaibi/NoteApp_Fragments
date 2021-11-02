@@ -23,7 +23,7 @@ class FragmentUpdate : Fragment() {
 lateinit var etNewNote: EditText
 lateinit var updateBtn: Button
 
-val myViewModel by lazy{ ViewModelProvider(this).get(MyViewModel::class.java)}
+private val myViewModel by lazy{ ViewModelProvider(this).get(MyViewModel::class.java)}
 var myID =""
 
 
